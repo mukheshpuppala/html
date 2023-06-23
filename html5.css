@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+nav ul li{
+    display:inline-block;
+    margin-right: 10px;
+
+}
+nav ul li a{
+    display:block;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+}
+nav ul li a:hover{
+    background-color:#ccc;
+}
+
+nav ul li .dropdown {
+    display:none;    
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 0px;
+    z-index: 1;
+
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
+nav ul li.dropdown li{
+    display: block;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+section{
+    flex: 3;
+    padding: 20px;
+}
+article{
+    margin-bottom: 10px;
+}
+
+aside{
+    flex: 1;
+    padding: 20px;
+    background-color: #ccc;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

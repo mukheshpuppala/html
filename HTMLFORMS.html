@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <FORM name="form" method="get">
+        <table border="1px" width="500px">
+            <tr>
+                <th colspan="2">Contact Form</th>
+            </tr>
+            <tr>
+                <td>Reg No</td>
+                <td><input type="text" name="reg" placeholder="123" value="" required/></td>
+            </tr>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" placeholder=".john" required/></td>
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="email" name="emailaddress" value=""/></td>
+            </tr>
+            <tr>
+                <td>mobile number</td>
+                <td><input type="text" name="mobilenumber" value="" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pa" value=""/></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input type="text" name="age" value=""/></td>
+            </tr>
+            <tr>
+                <td>Date of birth</td>
+                <td><input type="date" name="dateofbirth" value=""/></td>
+            </tr>
+
+            <tr>
+                <td>Service of web</td>
+                <td><input type="radio" name="service" value=""/> 1
+                    <input type="radio" name="service" value=""/> 2
+                    <input type="radio" name="service" value=""/> 3
+                    <input type="radio" name="service" value=""/> 4
+                    <input type="radio" name="service" value=""/> 5
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                   <td>
+                    <input type="radio" name="Gender" value="male"/>male
+                    <input type="radio" name="Gender" value="female"/>female
+                   </td>
+                  
+                    
+            </tr>
+            <tr>
+                <td>Language skills</td>
+                <td>
+                    <input type="checkbox" name="languge skills" value="php"/>php
+                    <input type="checkbox" name="languge skills" value="php"/>c
+                    <input type="checkbox" name="languge skills" value="php"/>python
+                    <input type="checkbox" name="languge skills" value="php"/>java
+                    <input type="checkbox" name="languge skills" value="php"/>c+
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="country">
+                        <option value="">choose any option </option>
+                        <option value="USA">USA</option>
+                        <option value="INDIA" selected>india</option>
+                        <option value="UK">uk</option>
+                        <option value="OTHERS">others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Language</td>
+                <td>
+                    <select name="lanaguage">
+                        <option value="">choose any option </option>
+                        <option value="english">English</option>
+                        <option value="Hindi" >Hindi</option>
+                        <option value="french">French</option>
+                        <option value="spanish">Spanish</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>File upload</td>
+                <td>
+                    <input type="file"  name="file upload"value="" multiple/>
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>
+                    <textarea name="description"value=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="submit"value="submit"/>
+                    <input type="reset" name="reset" value="reset"/>
+                </td>
+            </tr>
+
+        </table>
+    </FORM>
+</body>
+</html>
